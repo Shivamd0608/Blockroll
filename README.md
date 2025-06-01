@@ -76,30 +76,6 @@ curl -X POST http://localhost:5000/users/register \
 
 ---
 
-## Updates
-- Renamed all occurrences of "shivam oha" to "shivam dubey" across the project files.
-```// filepath: c:\Users\shivam dubey\Desktop\ojha sir proj\Blockroll\README.md
-# BlockRoll - The Ultimate Payment App
-
-## API Documentation
-
-### Endpoint: `/users/register`
-
-#### Description:
-This endpoint is used to register a new user in the BlockRoll system. The user can register as an employer, freelancer, or a normal user.
-
-#### HTTP Method:
-`POST`
-
-#### Request Body:
-The endpoint expects the following data in JSON format:
-
-```json
-{
-  "username": "string",       // Required. The username of the user.
-  "user_type": "string"       // Required. The type of user. Possible values: "employer", "freelancer", "normal".
-}
-```
 
 #### Response:
 
@@ -157,5 +133,3 @@ curl -X POST http://localhost:5000/users/register \
 
 ---
 
-## Updates
-- Renamed all occurrences of "shivam oha" to "shivam dubey" across the project files.
