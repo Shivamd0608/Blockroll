@@ -1,4 +1,5 @@
-pragma solidity ^0.5.0;
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity ^0.8.13;
 
 contract RupeeToken {
     string public name = "RupeeToken";
@@ -17,7 +18,7 @@ contract RupeeToken {
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;
 
-    constructor(uint256 _initialSupply) public {
+    constructor(uint256 _initialSupply) {
         balanceOf[msg.sender] = _initialSupply;
         totalSupply = _initialSupply;
     }
